@@ -12,9 +12,10 @@ s = 'this string is %d characters long'
 ## string % value(s)
 ## if there's more than one, put them in ()'s with commas between!
 
+print s % len(s)
+
 ## Go ahead and compute the length of s and substitute it into the string:
 
-print 'Use the operator luke!'
 
 # conversion
 ## Adding a string and a number together doesn't make sense... for example,
@@ -23,6 +24,5 @@ print 'Use the operator luke!'
 ## use the type functions to do that, in this case, str() and float() - int()
 ## would lose the decimal point that is clearly there for a reason!
 
-print 'as "added" strings'
-
-print 'as added numbers'
+print str(1.0) + str(2)
+print float(1.0) + float(2)
