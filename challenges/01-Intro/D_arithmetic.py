@@ -39,6 +39,6 @@ print "After 5 / 2,", remainder, "is left"
 ## And how would we get the division to give us the fractional answer (including
 ## amounts after the decimal point? (there are at least two "easy" ways)
 
-fractional = 5.0 / 2.0
+fractional = float(5) / float(2)
 print "In my world of fractions, 5 / 2 is", fractional
 
