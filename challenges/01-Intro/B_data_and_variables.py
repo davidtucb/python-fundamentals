@@ -16,7 +16,7 @@ instructors = ''
 
 # redefining
 ## Here, I define a variable
-my_lucky_number = 7
+my_lucky_number = 9
 
 ## But Dav's lucky number is 9 (and he wrote the test)
 ## Redefine the value "correctly" below
